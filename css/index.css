@@ -127,6 +127,7 @@ body {
   color: #000000;
   transition: all 0.3s ease;
   cursor: pointer;
+  padding: 0px 16px;
 }
 
 .profile .icon i:hover {
