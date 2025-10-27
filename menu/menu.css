@@ -261,6 +261,9 @@ body {
 
   .menu1 .box p {
     font-size: 18px;
+      padding: 10px;
+      margin-bottom: 0;
+
   }
 }
 
