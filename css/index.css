@@ -177,6 +177,17 @@ body {
   font-size: 26px;
 }
 
+/* إخفاء الأسهم بشكل افتراضي */
+.contant .col span {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* إظهار الأسهم عند الـ hover */
+.contant .col:hover span {
+  opacity: 1;
+}
+
 .contant .col:hover {
   background-color: var(--accent-color);
   transform: translateY(-5px) scale(1.05);
